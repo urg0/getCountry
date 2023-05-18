@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #555;
+  background-color: rgb(212, 223, 230);
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.country-img {
+  width: 30rem;
+  height: 17rem;
+  display: flex;
+  object-fit: cover;
+  background-color: #eee;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+.images {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.countries {
+  display: flex;
+
+  font-size: 2rem;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.country {
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+  width: 30rem;
+  border-radius: 0.7rem;
+  margin: 0 3rem;
+}
+
+.country-data {
+  padding: 2.5rem 3.75rem 3rem 3.75rem;
+}
+
+.country-name {
+  font-size: 2.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.country-region {
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.country-row span {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 2.4rem;
+}
+
+.images {
+  display: flex;
+}
+
+.flag {
+  font-size: 20rem;
+  text-align: center;
+}
