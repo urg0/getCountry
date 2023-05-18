@@ -8,7 +8,7 @@
 
   </a>
 
-<h3 align="center">lorem.</h3>
+<h3 align="center">getCountry</h3>
 
   <p align="center">
 Displays country and its neighbour's data that fetched from an API.
