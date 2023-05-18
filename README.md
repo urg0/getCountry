@@ -57,7 +57,7 @@ Displays country and its neighbour's data that fetched from an API.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Simple fetch API example. Defined a fetch() function that accepts a country as an input. It displays the given country and it's one neighbours's flag, population, language etc...
+Simple fetch API example with vanilla JavaScript. Defined a fetch() function that accepts a country as an input. It displays the given country and it's one neighbours's flag, population, language etc...
 The country is not selected by user, admin needs to call the function with desired country name. Not interactive.
 
 ![image](https://github.com/urg0/getCountry/assets/81859377/f099d8c7-caaf-4763-b137-6e28f6bbf1ec)
